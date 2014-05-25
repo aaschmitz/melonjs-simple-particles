@@ -1,7 +1,7 @@
-melonJS Simple Particle
+melonJS Simple Particles
 =======================
 
-Simple Particle example with [melonJS](https://github.com/melonjs/melonJS).
+Simple Particles example with [melonJS](https://github.com/melonjs/melonJS).
 
 View online at http://aaschmitz.github.io/simple-particles/
 
