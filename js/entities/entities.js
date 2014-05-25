@@ -6,7 +6,7 @@ game.dropletParticle = me.SpriteObject.extend({
         // the particle update even off screen
         this.alwaysUpdate = true;
 
-        // calculate random launch angle - in radians
+        // calculate random launch angle - convert degrees in radians
         var launch = Number.prototype.degToRad(Number.prototype.random(10, 80));
 
         // calculate random distance from point x original
