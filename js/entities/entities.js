@@ -1,6 +1,6 @@
 game.dropletParticle = me.SpriteObject.extend({              
     init: function(x, y) {
-        // Class Constructor
+        // class constructor
         this.parent(x, y, me.loader.getImage("droplet"));
 
         // the particle update even off screen
