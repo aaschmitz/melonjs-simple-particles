@@ -10,10 +10,10 @@ game.dropletParticle = me.SpriteObject.extend({
         var launch = Number.prototype.degToRad(Number.prototype.random(10, 80));
 
         // calculate random distance from point x original
-        var distance = Number.prototype.random(5, 10);
+        var distance = Number.prototype.random(3, 5);
 
         // calculate random altitude from point y original 
-        var altitude = Number.prototype.random(10, 20);
+        var altitude = Number.prototype.random(10, 12);
         
         // particle screen side (value negative is left, positive is right and zero is center)
         var screenSide = Number.prototype.random(-1, 1);
@@ -22,7 +22,7 @@ game.dropletParticle = me.SpriteObject.extend({
         this.vel = new me.Vector2d(Math.sin(launch) * distance * screenSide, -Math.cos(launch) * altitude);					
 
         // set the default engine gravity
-        me.sys.gravity = 0.98;
+        me.sys.gravity = 0.3;
     },
 
     update: function(dt) {		
