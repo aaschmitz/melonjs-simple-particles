@@ -14,7 +14,7 @@ game.PlayScreen = me.ScreenObject.extend({
      * action to perform pressing the mouse button
      */
     onPointerDown : function() {
-       game.startEmitter(me.input.mouse.pos.x, me.input.mouse.pos.y, 10);           
+       game.startEmitter(me.input.mouse.pos.x, me.input.mouse.pos.y, 20);           
     },
 
     /**
