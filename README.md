@@ -1,8 +1,10 @@
-melonJS Simple Particle
+Simple Particles example with melonJS
 =======================
 
-Simple Particle example with [melonJS](https://github.com/melonjs/melonJS).
+Simple Particles example made with [melonJS](https://github.com/melonjs/melonJS) game engine.
 
-View online at http://aaschmitz.github.io/simple-particles/
+View online the example [Simple Particles](http://aaschmitz.github.io/melonjs-simple-particles).
 
-NOTE: The melonJS 1.0.0 has a built-in particle system and editor, allowing the creation of advanced particles and emitters.
+NOTE: Starting from version 1.0.0 of the melonJS engine, a Particle System was added in it, allowing the creation of advanced particles and emitters.
+
+View online this same example but with [Particles System](http://aaschmitz.github.io/melonjs-improved-particles).
